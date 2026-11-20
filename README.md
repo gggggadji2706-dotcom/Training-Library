@@ -1,3 +1,5 @@
 [Что мы делали каждый день.pdf](https://github.com/user-attachments/files/35135593/default.pdf)
+
 https://www.figma.com/design/P6tdykcaqyR3eGqsbqOe12/Untitled?node-id=0-1&t=Po1f69KFewA3020E-1
+
 https://gidra081487.kaiten.ru/space/754199/boards
