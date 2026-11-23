@@ -426,7 +426,7 @@ footer p {
 .footer-right {
     text-align: right;
 }
-/* Валидация входа и регистрации (сохранён исходный дизайн) */
+
 .auth-form .field { display:flex; flex-direction:column; gap:4px; width:100%; }
 .auth-form .field > input { width:100%; border:2px solid #8fe6e6; border-radius:10px; background:#f6f7f0; padding:10px 12px; color:#20232c; outline:none; transition:border-color .2s,box-shadow .2s; }
 .auth-form .field > input:focus { border-color:#00d9e9; box-shadow:0 0 0 3px #00d9e944; }
