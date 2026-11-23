@@ -1,0 +1,384 @@
+
+.python-card {
+  background: linear-gradient(135deg, #252d3c, #405471);
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+.python-card-top {
+  height: 75px;
+  background: linear-gradient(90deg, #0631ec, #1257ee);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.python-card-top b {
+  font-size: 50px;
+  color: #d4f300;
+}
+
+.python-card-top span {
+  font-size: 47px;
+}
+
+.python-card-body {
+  padding: 18px 20px 24px;
+}
+
+.category {
+  color: #e5ef8d;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.python-card h3 {
+  font-size: 25px;
+  margin: 3px 0;
+}
+
+.python-card h4 {
+  font-size: 21px;
+  margin: 10px 0 7px;
+}
+
+.python-card p,
+.python-card li {
+  line-height: 1.35;
+}
+
+.python-card ul {
+  padding-left: 19px;
+  margin-top: 7px;
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 25px;
+}
+
+.detail-copy {
+  max-width: 540px;
+}
+
+.detail-code {
+  background: #202936;
+  border: 1px solid #526175;
+  border-radius: 9px;
+  padding: 20px;
+  overflow: auto;
+  align-self: start;
+  color: #b7f4fa;
+  font: 13px/1.65 monospace;
+  white-space: pre-wrap;
+}
+
+.course-cta {
+  display: inline-block;
+  margin-top: 15px;
+  background: #667b98;
+  padding: 10px 18px;
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+.course-cta:hover {
+  background: #00d9e9;
+  color: #111;
+}
+
+.purchase-card {
+  max-width: 510px;
+}
+
+.purchase-card .python-card-body {
+  padding-bottom: 40px;
+}
+
+.purchase-list {
+  max-width: 380px;
+}
+
+.price-box {
+  background: linear-gradient(135deg, #219eff, #377bde);
+  border-radius: 16px;
+  margin: 38px auto 0;
+  padding: 19px;
+  max-width: 400px;
+}
+
+.price-box .old {
+  text-decoration: line-through;
+  color: #c2d4e9;
+  font-size: 13px;
+}
+
+.price-box .new {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discount {
+  background: #e6f15d;
+  color: #111;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.price-box input {
+  display: block;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #b2d8ff;
+  color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+  width: 170px;
+}
+
+.price-box input::placeholder {
+  color: #e3eaff;
+}
+
+.pay-button {
+  display: block;
+  margin: 15px auto 0;
+  border: 0;
+  border-radius: 9px;
+  background: #06d4d9;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pay-note {
+  font-size: 12px;
+  color: #fff;
+}
+
+.python-hero .hero-text {
+  max-width: 75%;
+}
+
+.python-hero .eyebrow {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.python-hero h1 {
+  font-size: clamp(26px, 3.1vw, 45px);
+}
+
+.python-hero .subtitle {
+  font-size: 15px;
+}
+
+.python-emblem {
+  position: absolute;
+  right: 9%;
+  top: 45px;
+  font-size: 120px;
+}
+
+.python-hero .hero-button {
+  font-size: 13px;
+  right: 27%;
+  bottom: 15px;
+  cursor: default;
+}
+
+.python-main {
+  min-height: 650px;
+}
+
+.python-filters {
+  margin: 22px 0 12px;
+}
+
+.python-filters p {
+  font-size: 13px;
+  color: #b7bece;
+}
+
+.python-pill {
+  display: inline-block;
+  border-radius: 25px;
+  background: #00d9e9;
+  color: #121218;
+  padding: 10px 23px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.python-card {
+  margin: 0;
+  max-width: 100%;
+  color: #fff;
+}
+
+.python-card a {
+  color: white;
+}
+
+.python-card .course-cta {
+  background: #00d9e9;
+  color: #111;
+}
+
+.python-card .course-cta:hover {
+  background: #00b7c6;
+}
+
+.python-card .pay-button {
+  background: #00d9e9;
+}
+
+
+@media (max-width: 700px) {
+  .python-hero .hero-text {
+    max-width: 100%;
+  }
+
+  .python-emblem {
+    right: 4%;
+    top: 35px;
+    font-size: 80px;
+    opacity: 0.35;
+  }
+
+  .python-hero .hero-button {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 16px;
+  }
+
+  .python-card .detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .python-card .detail-code {
+    font-size: 11px;
+  }
+
+  .python-main {
+    min-height: 0;
+  }
+}
+
+
+.python-card .python-card-top {
+  height: 75px;
+}
+
+.python-card .python-card-body {
+  padding: 20px;
+}
+
+.python-card .purchase-card {
+  max-width: 510px;
+}
+
+.python-card.purchase-card {
+  max-width: 510px;
+  margin: 0 auto;
+}
+
+.python-card .detail-code {
+  white-space: pre-wrap;
+}
+
+.python-card .price-box input {
+  width: 170px;
+  max-width: 100%;
+  border-radius: 0;
+  background: transparent;
+}
+
+.python-card .price-box .pay-button {
+  font: inherit;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .python-hero {
+    padding-bottom: 30px;
+  }
+
+  .python-hero .hero-button {
+    display: inline-block;
+  }
+
+  .python-card .python-card-top {
+    height: 65px;
+  }
+}
+
+
+.python-page .pay-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 9px 16px;
+  line-height: 1.2;
+  text-align: center;
+  white-space: normal;
+}
+.python-page .pay-button img {
+  display: block;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .python-page footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    align-items: start;
+    width: 100%;
+    gap: 22px;
+    padding: 25px 18px;
+    text-align: center;
+  }
+  .python-page footer > div {
+    width: 100%;
+    max-width: 440px;
+    min-width: 0;
+    text-align: center;
+  }
+  .python-page footer .subscribe form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .python-page footer .subscribe input {
+    flex: 1 1 190px;
+    width: auto;
+    min-width: 0;
+  }
+  .python-page footer .subscribe button { flex: 0 0 auto; }
+}
+@media (max-width: 480px) {
+  .python-page footer .subscribe form { flex-direction: column; }
+  .python-page footer .subscribe input,
+  .python-page footer .subscribe button {
+    flex: none;
+    width: 100%;
+    max-width: 320px;
+  }
+  .python-page .pay-button { gap: 8px; }
+}
