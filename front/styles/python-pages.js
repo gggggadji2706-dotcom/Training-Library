@@ -1,1 +1,0 @@
-document.getElementById("subscribeForm")?.addEventListener("submit",e=>{e.preventDefault();alert("Спасибо за подписку!");e.currentTarget.reset()});document.getElementById("payButton")?.addEventListener("click",()=>{document.getElementById("paymentMessage").textContent="Недоступно"});
