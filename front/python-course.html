@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python с нуля — Training Library</title>
+
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="python-detail.css">
+
+    <script src="python-pages.js" defer></script>
+</head>
+
+<body class="python-page">
+    <header class="site-header">
+        <a class="logo" href="index 2.html">
+            <span>Training</span> Library
+        </a>
+
+        <input
+            class="search"
+            id="siteSearch"
+            type="search"
+            placeholder="Поиск курса или направления"
+            aria-label="Поиск курса или направления"
+        >
+
+        <nav>
+            <a class="active" href="catalog.html">Назад</a>
+            <a href="#admission">Поступление</a>
+            <a href="#about">О нас</a>
+        </nav>
+
+        <nav>
+            <a href="index 2.html">
+                <img
+                    src="https://images.icon-icons.com/1248/PNG/256/user_84308.png"
+                    alt="аккаунт"
+                    width="20"
+                    height="20"
+                >
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero python-hero">
+        <div class="hero-text">
+            <p class="eyebrow">УЧЕБНЫЕ КУРСЫ / Python</p>
+
+            <h1>
+                Python вперёд — код растёт!<br>
+                Пишем на Python — и побеждаем!
+            </h1>
+
+            <p class="subtitle">Ошибки не страшны — мы всё починим сейчас!</p>
+        </div>
+
+        <div class="python-emblem" aria-label="Python"><img src="https://static.tildacdn.info/tild3431-3233-4662-b331-323930633237/photo.png"
+             alt="аккаунт" width="200" height="200"></div>
+
+        <span class="hero-button">VS Code, PyCharm, Jupyter Notebook</span>
+    </section>
+
+    <main class="python-main">
+        <div class="catalog-heading">
+            <h2>Найди свой курс</h2>
+            <p>От первых шагов до уверенной практики</p>
+        </div>
+
+        <div class="python-filters">
+            <span class="python-pill">Программирование</span>
+            <p>1 курс</p>
+        </div>
+
+        <article class="python-card">
+            <div class="python-card-top">
+                <b>Py</b>
+                <span><img src="https://static.tildacdn.info/tild3431-3233-4662-b331-323930633237/photo.png"
+             alt="аккаунт" width="60" height="60"></span>
+            </div>
+
+            <div class="python-card-body detail-layout">
+                
+                <div class="detail-copy">
+                    <div class="category">Программирование</div>
+
+                    <h3>Python с нуля</h3>
+                    <p>От первой строки до собственного проекта.</p>
+
+                    <p>
+                        <b>Python (Пайтон)</b> — это высокоуровневый язык программирования
+                        с простым и читаемым синтаксисом. Его создал Гвидо ван Россум,
+                        первая версия вышла в 1991 году.
+                    </p>
+
+                    <h4>Где используют</h4>
+                    <ul>
+                        <li>Веб: Django, FastAPI, Flask.</li>
+                        <li>Анализ данных и ML: pandas, NumPy, scikit-learn, PyTorch, TensorFlow.</li>
+                        <li>Автоматизация и скрипты: обработка файлов, парсинг, отчёты, работа с API.</li>
+                        <li>Тестирование: pytest, unittest.</li>
+                        <li>Научные расчёты, визуализация: matplotlib, seaborn.</li>
+                        <li>Игры и прототипы: Pygame.</li>
+                        <li>DevOps и CI/CD: написание скриптов, взаимодействие с Docker, Kubernetes и т. п.</li>
+                    </ul>
+
+                    <p>
+                        Классический код на Python:<br>
+                        <code style="color:#00e3e9">print("Привет, мир!")</code>
+                    </p>
+
+                    <p style="font-size:12px;color:#c7cfdd">3 месяца · С нуля</p>
+
+                    <a class="course-cta" href="python-purchase.html">
+                        Купить и начать обучение →
+                    </a>
+                </div>
+
+                <pre class="detail-code"># Пример кода на Python
+def greet(name):
+    return f"Привет, {name}!"
+
+print(greet("Мир"))
+
+numbers = [1, 2, 3, 4, 5]
+squares = [n ** 2 for n in numbers]
+print(squares)
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def study(self):
+        return f"{self.name} учит Python"
+
+student = Student("Анна")
+print(student.study())</pre>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div>
+            <h2><span>Training</span> Library</h2>
+            <p>Библиотечная улица, 38с19</p>
+            <p>+7 901 762 12 92</p>
+        </div>
+
+        <div class="subscribe">
+            <p class="subscribe-title">Новые курсы — в твоей почте</p>
+
+            <form id="subscribeForm">
+                <input
+                    type="email"
+                    placeholder="Ваш Email"
+                    aria-label="Ваш Email"
+                    required
+                >
+                <button type="submit">Подписаться</button>
+            </form>
+
+            <p>TrainingLibrary@mail.ru</p>
+        </div>
+
+        <div class="footer-right">
+            <h2>70% Специалистов</h2>
+
+            <p>
+                Наши соцсети
+                <a href="https://vk.com" target="_blank">VK</a>
+                <a href="https://telegram.org" target="_blank">Telegram</a>
+            </p>
+
+            <p>© 2026 Uteens</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+

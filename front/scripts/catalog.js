@@ -174,7 +174,7 @@ function render() {
     article.querySelector('.course-details').textContent =
       `${c.duration} ${c.duration === 1 ? 'месяц' : c.duration < 5 ? 'месяца' : 'месяцев'} · ${c.levelLabel}`;
 
-    article.querySelector('.course-more').addEventListener('click', () => openCourse(c));
+    article.querySelector('.course-more').addEventListener('click', () => { if (c.id === 1) window.location.href = 'python-course.html'; else openCourse(c); });
     grid.appendChild(article);
   });
 

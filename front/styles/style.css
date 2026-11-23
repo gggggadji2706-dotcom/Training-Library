@@ -291,13 +291,21 @@ footer p {
     }
 
     .drone {
-        font-size: 130px;
-        top: 210px;
+        position: static;
+        margin: 12px 0 16px;
+    }
+
+    .drone img {
+        display: block;
+        width: min(52vw, 210px);
+        max-width: 100%;
+        height: auto;
+        margin-inline: auto;
     }
 
     .info-card {
         width: 100%;
-        margin-top: 220px;
+        margin-top: 0;
     }
 
     footer {
